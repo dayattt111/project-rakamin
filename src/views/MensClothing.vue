@@ -28,6 +28,10 @@
     <div class="loader-container" v-if="loading">
       <div class="loader"></div>
     </div>
+    
+    <footer class="footer">
+      <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+    </footer>
   </div>
 </template>
 
@@ -97,11 +101,17 @@ export default {
 .container {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #D6E6FF 0%, #B8D4FF 100%);
-  padding: 20px;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(0, 39, 114, 0.08) 0%, transparent 50%),
+    linear-gradient(135deg, #D6E6FF 0%, #B8D4FF 100%);
+  padding: 40px 20px 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  position: relative;
 }
 
 .product-card {
@@ -256,6 +266,20 @@ export default {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  color: #002772;
+  font-size: 13px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+.footer p {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
