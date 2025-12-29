@@ -117,20 +117,22 @@ export default {
 .product-card {
   background: #FFFFFF;
   border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(114, 0, 96, 0.12);
   display: flex;
   max-width: 900px;
   width: 100%;
   overflow: hidden;
+  border: 1px solid rgba(114, 0, 96, 0.08);
 }
 
 .product-image {
   flex: 0 0 45%;
-  background: #F5F5F5;
+  background: #FDE2FF;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 60px 40px;
+  border-right: 1px solid rgba(114, 0, 96, 0.06);
 }
 
 .product-image img {
@@ -231,20 +233,20 @@ export default {
 .btn-primary:hover {
   background: #5a004d;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(114, 0, 96, 0.3);
+  box-shadow: 0 8px 24px rgba(114, 0, 96, 0.35);
 }
 
 .btn-secondary {
-  background: white;
+  background: #FFFFFF;
   color: #720060;
   border: 2px solid #720060;
 }
 
 .btn-secondary:hover {
   background: #720060;
-  color: white;
+  color: #FFFFFF;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(114, 0, 96, 0.3);
+  box-shadow: 0 8px 24px rgba(114, 0, 96, 0.35);
 }
 
 .loader-container {

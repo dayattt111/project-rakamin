@@ -34,7 +34,7 @@ body {
   padding: 15px 30px;
   display: flex;
   gap: 25px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 .nav-link {
