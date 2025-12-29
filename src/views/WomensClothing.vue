@@ -137,26 +137,29 @@ export default {
 }
 
 .product-title {
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 27px;
+  font-weight: 700;
   color: #720060;
-  margin-bottom: 12px;
-  line-height: 1.3;
+  margin-bottom: 10px;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
 }
 
 .product-category {
-  font-size: 15px;
-  color: #666;
-  margin-bottom: 8px;
+  font-size: 14px;
+  color: #3F3F3F;
+  margin-bottom: 6px;
+  font-weight: 400;
 }
 
 .product-rating {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-size: 14px;
-  color: #333;
-  margin-bottom: 20px;
+  color: #1E1E1E;
+  margin-bottom: 18px;
+  font-weight: 500;
 }
 
 .stars {
@@ -177,11 +180,13 @@ export default {
 }
 
 .product-description {
-  font-size: 15px;
-  line-height: 1.7;
-  color: #444;
-  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #1E1E1E;
+  margin-bottom: 28px;
   flex-grow: 1;
+  font-weight: 400;
+  opacity: 0.95;
 }
 
 .product-price {

@@ -9,35 +9,35 @@ importers:
   .:
     dependencies:
       core-js:
-        specifier: ^3.8.3
+        specifier: ^3.47.0
         version: 3.47.0
       vue:
-        specifier: ^3.2.13
+        specifier: ^3.5.26
         version: 3.5.26
       vue-router:
         specifier: ^4.6.4
         version: 4.6.4(vue@3.5.26)
     devDependencies:
       '@babel/core':
-        specifier: ^7.12.16
+        specifier: ^7.28.5
         version: 7.28.5
       '@babel/eslint-parser':
-        specifier: ^7.12.16
+        specifier: ^7.28.5
         version: 7.28.5(@babel/core@7.28.5)(eslint@7.32.0)
       '@vue/cli-plugin-babel':
-        specifier: ~5.0.0
+        specifier: ~5.0.9
         version: 5.0.9(@vue/cli-service@5.0.9(@vue/compiler-sfc@3.5.26)(lodash@4.17.21)(vue@3.5.26)(webpack-sources@3.3.3))(core-js@3.47.0)(vue@3.5.26)
       '@vue/cli-plugin-eslint':
-        specifier: ~5.0.0
+        specifier: ~5.0.9
         version: 5.0.9(@vue/cli-service@5.0.9(@vue/compiler-sfc@3.5.26)(lodash@4.17.21)(vue@3.5.26)(webpack-sources@3.3.3))(eslint@7.32.0)
       '@vue/cli-service':
-        specifier: ~5.0.0
+        specifier: ~5.0.9
         version: 5.0.9(@vue/compiler-sfc@3.5.26)(lodash@4.17.21)(vue@3.5.26)(webpack-sources@3.3.3)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-plugin-vue:
-        specifier: ^8.0.3
+        specifier: ^8.7.1
         version: 8.7.1(eslint@7.32.0)
 
 packages:
